@@ -48,7 +48,7 @@ PODS:
   - Facebook-iOS-SDK (3.14.1):
     - Bolts
   - FBSnapshotTestCase (1.6)
-  - FLKAutoLayout (0.1.1)
+  - FLKAutoLayout (0.2.1)
   - FODFormKit (0.1.1)
   - FXBlurView (1.6.1)
   - HockeySDK (3.6.4)
@@ -124,7 +124,7 @@ DEPENDENCIES:
   - Expecta+Snapshots (~> 1.2)
   - Facebook-iOS-SDK (= 3.14.1)
   - FBSnapshotTestCase (= 1.6)
-  - FLKAutoLayout (= 0.1.1)
+  - FLKAutoLayout (from `https://github.com/alloy/FLKAutoLayout.git`, branch `add-support-for-layout-guides`)
   - FODFormKit (from `https://github.com/1aurabrown/FODFormKit.git`)
   - FXBlurView (= 1.6.1)
   - HockeySDK (from `https://github.com/bitstadium/HockeySDK-iOS.git`, branch `develop`)
@@ -163,6 +163,9 @@ EXTERNAL SOURCES:
   ARTiledImageView:
     :commit: 1a31b864d1d56b1aaed0816c10bb55cf2e078bb8
     :git: https://github.com/dblock/ARTiledImageView
+  FLKAutoLayout:
+    :branch: add-support-for-layout-guides
+    :git: https://github.com/alloy/FLKAutoLayout.git
   FODFormKit:
     :git: https://github.com/1aurabrown/FODFormKit.git
   HockeySDK:
@@ -183,6 +186,9 @@ CHECKOUT OPTIONS:
   ARTiledImageView:
     :commit: 1a31b864d1d56b1aaed0816c10bb55cf2e078bb8
     :git: https://github.com/dblock/ARTiledImageView
+  FLKAutoLayout:
+    :commit: 8c7b369fd3360d6aa0d2fb4504c5b10bf9fe2fc3
+    :git: https://github.com/alloy/FLKAutoLayout.git
   FODFormKit:
     :commit: 4607940c98a3200fbc0414577b74f511c9a5774d
     :git: https://github.com/1aurabrown/FODFormKit.git
@@ -220,7 +226,7 @@ SPEC CHECKSUMS:
   Expecta+Snapshots: 40c5ec43b43da3bae957f14fed5dc9177d08ec8b
   Facebook-iOS-SDK: 2948301ff993744c3c931d1ba46fa4a5bd60a687
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
-  FLKAutoLayout: 95b12c5cd9652100235140b68652f063f7437851
+  FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
   FODFormKit: c3feff74feb08c54ce2d4a27d67f2e089f0b231d
   FXBlurView: 5121730176fd52bcf7bffd0bd8c1485e8aabc3cb
   HockeySDK: c07cdd580296737edcd0963e292c19885a53f563

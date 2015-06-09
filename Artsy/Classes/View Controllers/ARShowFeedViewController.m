@@ -252,7 +252,7 @@ static CGFloat ARFeaturedShowsTitleHeightPhone = 40;
 
     [self ar_addModernChildViewController:self.heroUnitVC intoView:self.view belowSubview:self.tableView];
     [self.heroUnitVC.view alignLeading:@"0" trailing:@"0" toView:self.view];
-    [self.heroUnitVC.view constrainTopSpaceToView:(UIView *)self.topLayoutGuide predicate:@"0"];
+    [self.heroUnitVC.view constrainTopSpaceToLayoutGuideOfViewController:self predicate:@"0"];
     UIEdgeInsets insets = self.tableView.contentInset;
     insets.top = 20 + self.heroUnitVC.preferredContentSize.height;
     self.tableView.contentInset = insets;

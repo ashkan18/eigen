@@ -24,7 +24,7 @@
 {
     [super viewDidLoad];
 
-    [self.webView constrainTopSpaceToView:(UIView *)self.topLayoutGuide predicate:@"0"];
+    [self.webView constrainTopSpaceToLayoutGuideOfViewController:self predicate:@"0"];
     [self.webView alignTop:nil leading:@"0" bottom:@"0" trailing:@"0" toView:self.view];
     self.scrollView.delegate = self;
     self.scrollView.decelerationRate = UIScrollViewDecelerationRateNormal;
